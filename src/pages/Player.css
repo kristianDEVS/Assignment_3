@@ -1,0 +1,51 @@
+.player-page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f5f5f5 0%, #e0e0e0 100%);
+}
+
+.back-btn {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.5rem 1rem;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+  z-index: 10;
+}
+
+.back-btn:hover {
+  background: #f0f0f0;
+}
+
+.player-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.no-song {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.no-song p {
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.no-song button {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}

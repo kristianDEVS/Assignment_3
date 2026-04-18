@@ -1,0 +1,38 @@
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+}
+
+.volume-icon {
+  font-size: 1.5rem;
+}
+
+.volume-slider {
+  flex: 1;
+  max-width: 150px;
+  height: 6px;
+  border-radius: 3px;
+  background: #e0e0e0;
+  appearance: none;
+  cursor: pointer;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  cursor: pointer;
+}
+
+.volume-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  cursor: pointer;
+  border: none;
+}
